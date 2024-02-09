@@ -13,7 +13,7 @@ import firebase from 'firebase';
 function Feed() {
   const[posts,setPosts]=useState([]);
   const[input,setInput]=useState("");
-  useEffect=(()=>{
+  useEffect(()=>{
     db.collection("posts").orderBy('timestamp','desc').onSnapshot(snapshot =>(setPosts(snapshot.docs.map(doc=>(
       {
         id:doc.id,
