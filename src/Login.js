@@ -19,7 +19,7 @@ function Login() {
         displayName:userAuth.user.displayName,
         photoUrl: userAuth.user.photoUrl,
       }))
-    })
+    }).catch(error=>alert(error));
   };
   const register=()=>{
      if(!name){
