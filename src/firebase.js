@@ -1,4 +1,4 @@
-import firebase from "firebase"
+import firebase from 'firebase';
 const firebaseConfig = {
     apiKey: "AIzaSyDGxxjjynwTTlcWpDJFE3r0SEJ0pb6sDew",
     authDomain: "linkdin-clone-37297.firebaseapp.com",
